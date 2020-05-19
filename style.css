@@ -6,11 +6,10 @@ body {
 
 .textarea {
   background: transparent;
-  border: 1 px;
   resize: none;
   color: #000000;
   border-left: 1px solid black;
-  border-bottom: 1px solid black;
+  border-bottom: 1px;
   padding: 0;
   border-radius: 0;
 }
@@ -42,25 +41,22 @@ body {
   background-color: #ffffff;
   color: #000000;
   font-weight: bold;
-  height: 80px;
+  height: 79px;
 }
 
 .past {
   background-color: darkgray;
   color: white;
-  font-size: 18px;
 }
 
 .present {
   background-color: #ff6961;
   color: white;
-  font-weight: bold;
 }
 
 .future {
   background-color: #77dd77;
   color: white;
-  font-weight: bold;
 }
 
 .saveBtn {
@@ -72,13 +68,9 @@ body {
   padding: 20px 40px;
 }
 
-.table td,
-.table th {
-  padding: 0 12px;
-}
 
 .mb-3,
 .my-3 {
   margin-bottom: 0rem!important;
-  height: 80px;
+  height: 79px;
 }
