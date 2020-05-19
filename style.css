@@ -6,10 +6,11 @@ body {
 
 .textarea {
   background: transparent;
-  border: none;
+  border: 1 px;
   resize: none;
   color: #000000;
   border-left: 1px solid black;
+  border-bottom: 1px solid black;
   padding: 0;
   border-radius: 0;
 }
@@ -34,33 +35,32 @@ body {
 
 .row {
   white-space: pre-wrap;
-  height: 80px;
   border-top: 1px solid white;
 }
 
 .hour {
   background-color: #ffffff;
   color: #000000;
-  border-top: 1px dashed #000000;
+  font-weight: bold;
   height: 80px;
 }
 
 .past {
-  background-color: #d3d3d3;
-  border-bottom: solid 1px black;
+  background-color: darkgray;
   color: white;
+  font-size: 18px;
 }
 
 .present {
   background-color: #ff6961;
-  border-bottom: solid 1px black;
   color: white;
+  font-weight: bold;
 }
 
 .future {
   background-color: #77dd77;
-  border-bottom: solid 1px black;
   color: white;
+  font-weight: bold;
 }
 
 .saveBtn {
