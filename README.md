@@ -7,7 +7,7 @@ A simple calendar application that allows the user to save events for each hour 
 
 Deployed Website: https://rosajen27.github.io/work-day-scheduler/
 
-![day planner demo](./Assets/05-third-party-apis-homework-demo.gif)
+![day planner demo](./Assets/05-third-party-apis-homework-demo.png)
 
 ## Built With
 
