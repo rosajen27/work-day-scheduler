@@ -1,24 +1,25 @@
-# Work Day Scheduler
+# 📆 Work Day Scheduler
 
 A simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery and Moment.js.
 
 
 ## Deployment
 
-Deployed Website: https://rosajen27.github.io/work-day-scheduler/
+Demo: https://rosajen27.github.io/work-day-scheduler/
 
 ![day planner demo](./Assets/05-third-party-apis-homework-demo.png)
 
 ## Built With
 
-  - HTML
-  - CSS
-  - jQuery
-  - Moment.js
+  * HTML
+  * CSS
+  * JavaScript
+  * jQuery
+  * Moment.js
 
 ## Authors
 
-  - **Jennifer Rosa**
+  * **Jennifer Rosa**
     [Rosajen27](https://rosajen27.github.io/)
 
 
@@ -28,7 +29,7 @@ Deployed Website: https://rosajen27.github.io/work-day-scheduler/
 
 This project is licensed under the MIT License.
 
-Copyright (c) 2020 Jennifer Rosa
+Copyright (c) 2021 Jennifer Rosa
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -50,4 +51,4 @@ SOFTWARE.
 
 ## Acknowledgments
 
-  - Trilogy Education Services
+  * Trilogy Education Services

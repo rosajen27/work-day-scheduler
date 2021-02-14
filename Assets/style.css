@@ -1,73 +1,66 @@
-body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  line-height: 1;
-}
-
-.textarea {
-  background: transparent;
-  resize: none;
-  color: #000000;
-  border-left: 1px solid black;
-  border-bottom: 1px;
+* {
+  margin: 0;
   padding: 0;
-  border-radius: 0;
+  box-sizing: border-box;
 }
-
+body,
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: #1f1f1f;
+}
+/* Jumbotron */
+h1,
+p.lead {
+  font-family: 'Poppins', sans-serif;
+}
+p#currentDay.lead {
+  font-weight: bold;
+}
 .jumbotron {
   text-align: center;
-  background-color: transparent;
-  color: black;
-  border-radius: 0;
-  border-bottom: 10px solid black;
+  background-color: #fff;
 }
-
-.description {
+.description,
+.row {
   white-space: pre-wrap;
 }
 
+/* Calendar */
+.textarea {
+  background: transparent;
+  resize: none;
+  border-left: 1px dotted #1f1f1f;
+  font-size: 22px;
+}
 .time-block {
   text-align: center;
   border-radius: 15px;
   padding-bottom: 10px;
 }
-
-.row {
-  white-space: pre-wrap;
-  border-top: 1px solid white;
-}
-
 .hour {
-  background-color: #ffffff;
-  color: #000000;
+  background-color: #fff;
   font-weight: bold;
   height: 79px;
+  color: #1f1f1f;
 }
-
 .past {
-  background-color: darkgray;
-  color: white;
+  background-color: #dfe6e9;
 }
-
 .present {
-  background-color: #ff6961;
-  color: white;
+  background-color: #ff7675;
 }
-
 .future {
-  background-color: #77dd77;
-  color: white;
+  background-color: #7bed9f;
 }
-
 .saveBtn {
-  border-left: 1px solid black;
+  border-left: 1px solid #1f1f1f;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06AED5;
-  color: white;
+  background-color: #74b9ff;
+  color: #fff;
   padding: 20px 40px;
 }
-
 
 .mb-3,
 .my-3 {
